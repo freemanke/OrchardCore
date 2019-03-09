@@ -1,0 +1,1 @@
+dotnet publish ./src/OrchardCore.Mvc.Web/OrchardCore.Mvc.Web.csproj -c Release

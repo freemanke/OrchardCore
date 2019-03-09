@@ -16,6 +16,7 @@ namespace OrchardCore.Cms.Web
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder<Startup>(args)
+            .UseUrls("http://*:40000")
                 .UseNLogWeb();
     }
 }
